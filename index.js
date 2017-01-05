@@ -1,9 +1,14 @@
 'use strict'
 
-exports.name = 'foo'
-exports.inputFormats = ['foo', 'foobar']
+var combyne = require('combyne')
+
+exports.name = 'combyne'
 exports.outputFormat = 'html'
 
-exports.render = function (str) {
-  return str
+exports.compile = function (str, options) {
+  var template = combyne(str, options)
+  // TODO: Register filters here.
+  return function (locals) {
+    return template.render(locals)
+  }
 }
