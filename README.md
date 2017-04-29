@@ -1,5 +1,7 @@
 # jstransformer-combyne
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-combyne.svg)](https://greenkeeper.io/)
+
 [Combyne](https://github.com/tbranyen/combyne) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-combyne/master.svg)](https://travis-ci.org/jstransformers/jstransformer-combyne)
