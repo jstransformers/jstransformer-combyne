@@ -1,4 +1,8 @@
 {
+  "dependencies": {
+    "combyne": "^2.0.0",
+    "extend-shallow": "^2.0.1"
+  },
   "name": "jstransformer-combyne",
   "version": "0.1.0",
   "description": "Combyne template support for JSTransformers.",
@@ -10,7 +14,7 @@
   ],
   "devDependencies": {
     "test-jstransformer": "^1.0.0",
-    "xo": "^0.17.1"
+    "xo": "*"
   },
   "scripts": {
     "coverage": "test-jstransformer coverage",
@@ -28,9 +32,5 @@
     "name": "JSTransformers Team",
     "url": "http://github.com/orgs/jstransformers/people"
   },
-  "license": "MIT",
-  "dependencies": {
-    "combyne": "^2.0.0",
-    "extend-shallow": "^2.0.1"
-  }
+  "license": "MIT"
 }
