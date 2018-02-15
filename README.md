@@ -15,7 +15,7 @@
 ## API
 
 ```js
-var combyne = require('jstransformer')(require('jstransformer-combyne'));
+var combyne = require('jstransformer')(require('jstransformer-combyne'))
 
 combyne.render('Hello, {{name}}!', { name: 'World'}).body
 //=> 'Hello, World!'
